@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Firebase Authentication</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <div class="form">
+      <h3>Login Here</h3>
+
+      <label for="username">Username</label>
+      <input type="text" placeholder="Email or Phone" id="username" />
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password" id="password" />
+
+      <button class="login">Log In</button>
+      <div class="social">
+        <button id="googleLogin" class="go">
+          <i class="fab fa-google"></i> Google
+        </button>
+        <button id="githubLogin" class="fb">
+          <i class="fab fa-github"></i> Github
+        </button>
+      </div>
+    </div>
+  </body>
+
+  <script type="module" src="index.js"></script>
+</html>
