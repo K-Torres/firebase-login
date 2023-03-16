@@ -21,7 +21,7 @@ googleLogin.addEventListener('click', (e) => {
   signInWithPopup(auth, googleProvider)
     .then((result) => {
       const user = result.user;
-      alert("Logged in: " + user.displayName);
+      alert("Logged in:  " + user.displayName);
 
     }).catch((error) => {
       const errorMessage = error.message;
@@ -33,7 +33,7 @@ githubLogin.addEventListener('click', (e) => {
   signInWithPopup(auth, gitHubProvider)
     .then((result) => {
       const user = result.user;
-      alert("Logged in: " + user.displayName);
+      alert("Logged in:  " + user.displayName);
 
     }).catch((error) => {
       const errorMessage = error.message;
